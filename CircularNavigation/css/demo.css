@@ -1,0 +1,232 @@
+@font-face {
+	font-family: 'codropsicons';
+	src:url('../fonts/codropsicons/codropsicons.eot');
+	src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/codropsicons/codropsicons.woff') format('woff'),
+		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
+		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {}
+
+a, button {
+	outline: none;
+}
+
+a {
+	text-decoration: none;
+}
+#ere{
+	background-image: url('../img/g.jpg');
+	background-repeat: repeat;
+}
+#te{
+	background-image: url('../img/f.jpg');
+}
+header {
+	text-align: center;
+	background-image: url('../img/fondo.jpg');
+  	background-position: center;
+  	background-size: 70em 30em;
+}
+ #in{
+	text-align: center;
+	background-image: url('../img/pat.jpg');
+  	background-position: center;
+  	background-size: 20em 20em;
+}
+
+header h1 {	
+	font-size: 3.5em;
+	font-weight: 200;
+	font-family: 'Indie Flower', cursive;
+}
+
+ header span {
+	display: inline;
+	font-weight: 300;
+	color: #F1E919;
+	text-shadow: 3px 3px 3px #0F0404;	
+	font-size: 2.3em;
+	font-family: 'Indie Flower', cursive;
+}
+
+/* To Navigation Style */
+/* .codrops-top {
+	background: #f06060;
+	background: rgba(255, 255, 255, 0.1);
+	text-transform: uppercase;
+	width: 100%;
+	font-size: 0.69em;
+	line-height: 2.2;
+}
+
+.codrops-top a {
+	text-decoration: none;
+	padding: 0 1em;
+	letter-spacing: 0.1em;
+	color: #fff;
+	display: inline-block;
+}
+
+.codrops-top a:hover {
+	background: rgba(255,255,255,0.95);
+	color: #777;
+}
+
+.codrops-top span.right {
+	float: right;
+}
+
+.codrops-top span.right a {
+	float: left;
+	display: block;
+}
+
+.codrops-icon:before {
+	font-family: 'codropsicons';
+	margin: 0 4px;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.codrops-icon-drop:before {
+	content: "\e001";
+}
+
+.codrops-icon-prev:before {
+	content: "\e004";
+}
+
+/* Demo Buttons Style */
+/*.codrops-demos {
+	padding-top: 1em;
+	font-size: 0.9em;
+}
+
+.codrops-demos a {
+	text-decoration: none;
+	outline: none;
+	display: inline-block;
+	margin: 0.5em;
+	padding: 0.7em 1.1em;
+	border: 3px solid #fff;
+	color: #fff;
+	font-weight: 700;
+}
+
+.codrops-demos a:hover,
+.codrops-demos a.current-demo,
+.codrops-demos a.current-demo:hover {
+	opacity: 0.6;
+} */
+
+.container > section {
+	font-weight: 300;
+	padding: 1em;
+	font-size: 1em;
+	/*max-width: 60em;*/
+	text-align: justify;
+}
+.container > section > #cont2 h1 {
+	margin-right: 10em;
+	margin-top: -8em;
+}
+
+.container > section #img1{
+	float: left;
+	display: 1em;
+	margin-right: 1em;
+}
+#img1:hover{
+border-radius:1em;
+-webkit-border-radius:50%;
+box-shadow: 1px 1px 15px 15px #ec731e;
+-webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+}
+.container > section #img2{
+	float: right;
+	width: 40em;
+	height: 30em;
+}
+#img2:hover{
+border-radius:1em;
+-webkit-border-radius:50%;
+box-shadow: 1px 1px 15px 15px #ec731e;
+-webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+}
+
+
+.container > section #cont1 {
+	font-family: 'Ranga', cursive;
+	vertical-align: middle;
+	padding: .8em ;
+	text-align: justify;
+	font-weight: 300;
+	line-height: 1.4;
+	text-indent: 1em;
+	font-size: 1.2em;
+}
+.container > section #cont2 {
+	font-family: 'Ranga', cursive;
+	float: right;
+	display: inherit;
+	padding: 1em;
+	margin-bottom: 2.3em;
+	text-align: justify;
+	font-weight: 300;
+	font-size: 1.2em;
+	margin-right: 33em;
+
+}
+.un{grid-area: left;}
+.do{grid-area: right;}
+#gr{
+	display: grid;
+	grid-template-areas:
+	'left left left right right right';
+	grid-gap: 4em;
+	padding: 4em;
+}
+#gr > div{
+  font-family: 'Ranga', cursive;	
+  padding: 1em 0;
+  font-size: 1.4em;
+  text-align: justify;
+}
+#gr > div h1{
+	font-family: 'Ranga', cursive;	
+	text-align: center;
+}
+.un{
+	background-image: url(../img/patd1.jpg);
+	background-repeat: no-repeat;
+	background-size: 12em 9em;
+	text-shadow: 3px 3px 3px #74F600;
+}
+.do{
+	background-image: url(../img/patd2.jpg);
+	background-repeat: no-repeat;
+	background-size: 12em 9em;
+	text-shadow: 3px 3px 3px #23E9F5;
+
+}
+
+@media screen and (max-width: 25em) {
+
+	.codrops-icon span {
+		display: none;
+	}
+
+}
